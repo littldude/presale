@@ -336,7 +336,7 @@ ul {
                 object-fit: cover;
             }
             &:last-child {
-                padding: 49px 66px 45px 95px;
+                padding: 49px 48px 45px 85px;
                 background-color: #ffffff;
                 box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
                 border-radius: 40px;
@@ -496,7 +496,7 @@ ul {
         &__inner {
             &--item {
                 &:last-child {
-                    padding: 49px 40px 45px 70px;
+                    padding: 49px 30px 45px 70px;
                 }
             }
         }
@@ -930,6 +930,9 @@ ul {
             display: block;
             width: 200px;
         }
+        &--about {
+            padding: 0 2%;
+        }
     }
     .text {
         &--intro {
@@ -989,6 +992,13 @@ ul {
         padding: 40px 0;
         &__input {
             width: 290px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .subtitle {
+        &--about {
+            padding: 0 6%;
         }
     }
 }
